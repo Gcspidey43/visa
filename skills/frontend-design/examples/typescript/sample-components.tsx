@@ -108,7 +108,7 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
   error?: string;
   helperText?: string;
-  size?: 'sm' | 'md' | 'lg';
+  inputSize?: 'sm' | 'md' | 'lg';
   leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
 }
@@ -119,7 +119,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
       label,
       error,
       helperText,
-      size = 'md',
+      inputSize = 'md',
       leftIcon,
       rightIcon,
       className,
@@ -159,7 +159,7 @@ export const Input = forwardRef<HTMLInputElement, InputProps>(
             id={inputId}
             className={cn(
               'input',
-              sizeClasses[size],
+              sizeClasses[inputSize],
               error && 'input-error',
               leftIcon && 'pl-10',
               rightIcon && 'pr-10',
