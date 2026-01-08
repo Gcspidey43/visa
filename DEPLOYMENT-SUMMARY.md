@@ -177,7 +177,7 @@ User's Browser
 - Set up `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` in GitHub Secrets
 
 **Option B: Manual**
-- Run: `bun run deploy:cloudflare`
+- Run: `npm run deploy:cloudflare`
 - This builds and deploys manually
 
 ---

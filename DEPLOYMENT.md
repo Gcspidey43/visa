@@ -207,7 +207,7 @@ If you want to deploy manually:
 
 ```bash
 # Using the deployment script I added
-bun run deploy:cloudflare
+npm run deploy:cloudflare
 ```
 
 This will:
