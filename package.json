@@ -11,9 +11,9 @@
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:reset": "prisma migrate reset",
-    "deploy:cloudflare": "npm run build && npx wrangler pages deploy",
+    "deploy:cloudflare": "npm run build",
     "pages:build": "npm run build",
-    "pages:dev": "npx wrangler pages dev"
+    "pages:dev": "npm run dev"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",
