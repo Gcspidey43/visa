@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
+    "cf-build": "npx @cloudflare/next-on-pages",
     "start": "NODE_ENV=production node .next/standalone/server.js",
     "lint": "next lint",
     "db:push": "prisma db push",
@@ -82,6 +83,7 @@
     "tailwindcss-animate": "^1.0.7",
     "uuid": "^11.1.0",
     "vaul": "^1.1.2",
+    "@cloudflare/next-on-pages": "^1.13.2",
     "z-ai-web-dev-sdk": "^0.0.15",
     "socket.io-client": "^4.8.1",
     "zod": "^4.0.2",
